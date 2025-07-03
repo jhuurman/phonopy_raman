@@ -1,0 +1,10 @@
+#!/bin/bash
+
+
+phonopy -c CONTCAR eigenvectors.conf
+phonopy_visualization
+
+if [ -e symmetry.conf ]; then
+  phonopy -c CONTCAR symmetry.conf 
+  phonopy_symmetry
+fi

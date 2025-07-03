@@ -1,0 +1,7 @@
+#!/bin/bash
+# Add the directory containing phonon_force and phonon_all to the PATH
+export PATH="$PATH:/global/homes/j/johnornl/vasp_calculations/MoS2_vasp/Phonopy_resonant/binary_utility"
+
+phonon_force
+phonon_all
+
