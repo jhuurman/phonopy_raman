@@ -1,0 +1,5 @@
+#!/bin/bash
+
+phonon_force
+phonon_all
+

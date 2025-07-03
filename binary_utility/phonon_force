@@ -1,0 +1,9 @@
+#!/bin/bash
+
+ls -d hf_POSCAR-*|sed s/hf_POSCAR-// > file_list
+N=$(tail -1 file_list)
+rm file_list
+
+echo "phonopy -f hf_POSCAR-{001..$N}/vasprun.xml"
+echo "phonopy -f hf_POSCAR-{001..$N}/vasprun.xml" | bash
+
