@@ -1,0 +1,619 @@
+# Grace project file                      
+@version 50113                            
+@page size 792, 612                       
+@page scroll 5%                           
+@page inout 5%                            
+@link page off                            
+@with g0
+@    world xmin 1.00
+@    world xmax    1.00000
+@    world ymin   -2.00000
+@    world ymax    3.00000
+@    view 0.150000, 0.150000, 0.500000, 0.800000
+@default linewidth 1.5
+@    xaxis  on
+@    xaxis  type zero false
+@    xaxis  offset 0.000000 , 0.000000
+@    xaxis  bar on
+@    xaxis  bar color 1
+@    xaxis  bar linestyle 1
+@    xaxis  bar linewidth 1.0
+@    xaxis  label ""
+@    xaxis  label layout para
+@    xaxis  label place auto
+@    xaxis  label char size 1.070000
+@    xaxis  label font 67
+@    xaxis  label color 1
+@    xaxis  label place normal
+@    xaxis  tick off
+@    xaxis  tick major 0
+@    xaxis  tick minor ticks 1
+@    xaxis  tick default 6
+@    xaxis  tick place rounded true
+@    xaxis  tick in
+@    xaxis  tick major size 1.000000
+@    xaxis  tick major color 1
+@    xaxis  tick major linewidth 1.0
+@    xaxis  tick major linestyle 3
+@    xaxis  tick minor color 1
+@    xaxis  tick minor linewidth 1.0
+@    xaxis  tick minor linestyle 1
+@    xaxis  tick minor grid off
+@    xaxis  tick minor size 0.500000
+@    xaxis  ticklabel off
+@    xaxis  ticklabel format general
+@    xaxis  ticklabel prec 5
+@    xaxis  ticklabel formula ""
+@    xaxis  ticklabel append ""
+@    xaxis  ticklabel prepend ""
+@    xaxis  ticklabel angle 0
+@    xaxis  ticklabel skip 0
+@    xaxis  ticklabel stagger 0
+@    xaxis  ticklabel place normal
+@    xaxis  ticklabel offset auto
+@    xaxis  ticklabel offset 0.000000 , 0.010000
+@    xaxis  ticklabel start type auto
+@    xaxis  ticklabel start 0.000000
+@    xaxis  ticklabel stop type auto
+@    xaxis  ticklabel stop 0.000000
+@    xaxis  ticklabel char size 1.230000
+@    xaxis  ticklabel font 67
+@    xaxis  ticklabel color 1
+@    xaxis  tick place normal
+@    yaxis  on
+@    yaxis  type zero false
+@    yaxis  offset 0.000000 , 0.000000
+@    yaxis  bar on
+@    yaxis  bar color 1
+@    yaxis  bar linestyle 1
+@    yaxis  bar linewidth 1.0
+@    yaxis  label "Energy (eV)"
+@    yaxis  label layout para
+@    yaxis  label place spec
+@    yaxis  label place 0.000000, 0.060000
+@    yaxis  label char size 1.230000
+@    yaxis  label font 67
+@    yaxis  label color 1
+@    yaxis  label place normal
+@    yaxis  tick on
+@    yaxis  tick major 1
+@    yaxis  tick minor ticks 1
+@    yaxis  tick default 6
+@    yaxis  tick place rounded true
+@    yaxis  tick out
+@    yaxis  tick major size 0.830000
+@    yaxis  tick major color 1
+@    yaxis  tick major linewidth 1.5
+@    yaxis  tick major linestyle 1
+@    yaxis  tick major grid off
+@    yaxis  tick minor color 1
+@    yaxis  tick minor linewidth 1.5
+@    yaxis  tick minor linestyle 1
+@    yaxis  tick minor grid off
+@    yaxis  tick minor size 0.410000
+@    yaxis  ticklabel on
+@    yaxis  ticklabel format general
+@    yaxis  ticklabel prec 5
+@    yaxis  ticklabel formula ""
+@    yaxis  ticklabel append ""
+@    yaxis  ticklabel prepend ""
+@    yaxis  ticklabel angle 0
+@    yaxis  ticklabel skip 0
+@    yaxis  ticklabel stagger 0
+@    yaxis  ticklabel place normal
+@    yaxis  ticklabel offset auto
+@    yaxis  ticklabel offset 0.000000 , 0.010000
+@    yaxis  ticklabel start type auto
+@    yaxis  ticklabel start 0.000000
+@    yaxis  ticklabel stop type auto
+@    yaxis  ticklabel stop 0.000000
+@    yaxis  ticklabel char size 1.110000
+@    yaxis  ticklabel font 67
+@    yaxis  ticklabel color 1
+@    yaxis  tick place normal
+@    yaxis  tick spec type none
+@    altxaxis  off
+@    altyaxis  off
+@    legend on
+@    legend loctype view
+@    legend 0.85, 0.8
+@    legend box color 1
+@    legend box pattern 1
+@    legend box linewidth 1.5
+@    legend box linestyle 1
+@    legend box fill color 0
+@    legend box fill pattern 1
+@    legend font 67
+@    legend char size 1.000000
+@    legend color 1
+@    legend length 4
+@    legend vgap 1
+@    legend hgap 1
+@    legend invert false
+@    frame type 0
+@    frame linestyle 1
+@    frame linewidth 1.5
+@    frame color 1
+@    frame pattern 1
+@    frame background color 0
+@    frame background pattern 0
+@    s0 line linewidth 2.0
+@    s0 line color 1
+@    s1 line linewidth 2.0
+@    s1 line color 1
+@    s2 line linewidth 2.0
+@    s2 line color 1
+@    s3 line linewidth 2.0
+@    s3 line color 1
+@    s4 line linewidth 2.0
+@    s4 line color 1
+@    s5 line linewidth 2.0
+@    s5 line color 1
+@    s6 line linewidth 2.0
+@    s6 line color 1
+@    s7 line linewidth 2.0
+@    s7 line color 1
+@    s8 line linewidth 2.0
+@    s8 line color 1
+@    s9 line linewidth 2.0
+@    s9 line color 1
+@    s10 line linewidth 2.0
+@    s10 line color 1
+@    s11 line linewidth 2.0
+@    s11 line color 1
+@    s12 line linewidth 2.0
+@    s12 line color 1
+@    s13 line linewidth 2.0
+@    s13 line color 1
+@    s14 line linewidth 2.0
+@    s14 line color 1
+@    s15 line linewidth 2.0
+@    s15 line color 1
+@    s16 line linewidth 2.0
+@    s16 line color 1
+@    s17 line linewidth 2.0
+@    s17 line color 1
+@    s18 line linewidth 2.0
+@    s18 line color 1
+@    s19 line linewidth 2.0
+@    s19 line color 1
+@    s20 line linewidth 2.0
+@    s20 line color 1
+@    s21 line linewidth 2.0
+@    s21 line color 1
+@    s22 line linewidth 2.0
+@    s22 line color 1
+@    s23 line linewidth 2.0
+@    s23 line color 1
+@    s24 line linewidth 2.0
+@    s24 line color 1
+@    s25 line linewidth 2.0
+@    s25 line color 1
+@    s26 line linewidth 2.0
+@    s26 line color 1
+@    s27 line linewidth 2.0
+@    s27 line color 1
+@    s28 line linewidth 2.0
+@    s28 line color 1
+@    s29 line linewidth 2.0
+@    s29 line color 1
+@    s30 line linewidth 2.0
+@    s30 line color 1
+@    s31 line linewidth 2.0
+@    s31 line color 1
+@    s32 line linewidth 2.0
+@    s32 line color 1
+@    s33 line linewidth 2.0
+@    s33 line color 1
+@    s34 line linewidth 2.0
+@    s34 line color 1
+@    s35 line linewidth 2.0
+@    s35 line color 1
+@    s36 line linewidth 2.0
+@    s36 line color 1
+@    s37 line linewidth 2.0
+@    s37 line color 1
+@    s38 line linewidth 2.0
+@    s38 line color 1
+@    s39 line linewidth 2.0
+@    s39 line color 1
+@    s40 line linewidth 2.0
+@    s40 line color 1
+@    s41 line linewidth 2.0
+@    s41 line color 1
+@    s42 line linewidth 2.0
+@    s42 line color 1
+@    s43 line linewidth 2.0
+@    s43 line color 1
+@    s44 line linewidth 2.0
+@    s44 line color 1
+@    s45 line linewidth 2.0
+@    s45 line color 1
+@    s46 line linewidth 2.0
+@    s46 line color 1
+@    s47 line linewidth 2.0
+@    s47 line color 1
+@    s48 line linewidth 2.0
+@    s48 line color 1
+@    s49 line linewidth 2.0
+@    s49 line color 1
+@    s50 line linewidth 2.0
+@    s50 line color 1
+@    s51 line linewidth 2.0
+@    s51 line color 1
+@    s52 line linewidth 2.0
+@    s52 line color 1
+@    s53 line linewidth 2.0
+@    s53 line color 1
+@    s54 line linewidth 2.0
+@    s54 line color 1
+@    s55 line linewidth 2.0
+@    s55 line color 1
+@    s56 line linewidth 2.0
+@    s56 line color 1
+@    s57 line linewidth 2.0
+@    s57 line color 1
+@    s58 line linewidth 2.0
+@    s58 line color 1
+@    s59 line linewidth 2.0
+@    s59 line color 1
+@    s60 line linewidth 2.0
+@    s60 line color 1
+@    s61 line linewidth 2.0
+@    s61 line color 1
+@    s62 line linewidth 2.0
+@    s62 line color 1
+@    s63 line linewidth 2.0
+@    s63 line color 1
+@    s64 line linewidth 2.0
+@    s64 line color 1
+@    s65 line linewidth 2.0
+@    s65 line color 1
+@    s66 line linewidth 2.0
+@    s66 line color 1
+@    s67 line linewidth 2.0
+@    s67 line color 1
+@    s68 line linewidth 2.0
+@    s68 line color 1
+@    s69 line linewidth 2.0
+@    s69 line color 1
+@    s70 line linewidth 2.0
+@    s70 line color 1
+@    s71 line linewidth 2.0
+@    s71 line color 1
+@    s72 line linewidth 2.0
+@    s72 line color 1
+@    s73 line linewidth 2.0
+@    s73 line color 1
+@    s74 line linewidth 2.0
+@    s74 line color 1
+@    s75 line linewidth 2.0
+@    s75 line color 1
+@    s76 line linewidth 2.0
+@    s76 line color 1
+@    s77 line linewidth 2.0
+@    s77 line color 1
+@    s78 line linewidth 2.0
+@    s78 line color 1
+@    s79 line linewidth 2.0
+@    s79 line color 1
+@target G0.S0
+@type xy
+  0.10000000E+01 -0.17733309E+02
+&
+@target G0.S1
+@type xy
+  0.10000000E+01 -0.17372513E+02
+&
+@target G0.S2
+@type xy
+  0.10000000E+01 -0.17096244E+02
+&
+@target G0.S3
+@type xy
+  0.10000000E+01 -0.16905336E+02
+&
+@target G0.S4
+@type xy
+  0.10000000E+01 -0.16791812E+02
+&
+@target G0.S5
+@type xy
+  0.10000000E+01 -0.14312057E+02
+&
+@target G0.S6
+@type xy
+  0.10000000E+01 -0.14128914E+02
+&
+@target G0.S7
+@type xy
+  0.10000000E+01 -0.13954129E+02
+&
+@target G0.S8
+@type xy
+  0.10000000E+01 -0.13869614E+02
+&
+@target G0.S9
+@type xy
+  0.10000000E+01 -0.13224752E+02
+&
+@target G0.S10
+@type xy
+  0.10000000E+01 -0.13097780E+02
+&
+@target G0.S11
+@type xy
+  0.10000000E+01 -0.12648916E+02
+&
+@target G0.S12
+@type xy
+  0.10000000E+01 -0.12385895E+02
+&
+@target G0.S13
+@type xy
+  0.10000000E+01 -0.12124057E+02
+&
+@target G0.S14
+@type xy
+  0.10000000E+01 -0.11864370E+02
+&
+@target G0.S15
+@type xy
+  0.10000000E+01 -0.99277510E+01
+&
+@target G0.S16
+@type xy
+  0.10000000E+01 -0.95991360E+01
+&
+@target G0.S17
+@type xy
+  0.10000000E+01 -0.95104780E+01
+&
+@target G0.S18
+@type xy
+  0.10000000E+01 -0.92525850E+01
+&
+@target G0.S19
+@type xy
+  0.10000000E+01 -0.89705270E+01
+&
+@target G0.S20
+@type xy
+  0.10000000E+01 -0.88974990E+01
+&
+@target G0.S21
+@type xy
+  0.10000000E+01 -0.84306510E+01
+&
+@target G0.S22
+@type xy
+  0.10000000E+01 -0.82365240E+01
+&
+@target G0.S23
+@type xy
+  0.10000000E+01 -0.80505180E+01
+&
+@target G0.S24
+@type xy
+  0.10000000E+01 -0.79679510E+01
+&
+@target G0.S25
+@type xy
+  0.10000000E+01 -0.77389960E+01
+&
+@target G0.S26
+@type xy
+  0.10000000E+01 -0.67310530E+01
+&
+@target G0.S27
+@type xy
+  0.10000000E+01 -0.65713250E+01
+&
+@target G0.S28
+@type xy
+  0.10000000E+01 -0.63680950E+01
+&
+@target G0.S29
+@type xy
+  0.10000000E+01 -0.62703290E+01
+&
+@target G0.S30
+@type xy
+  0.10000000E+01 -0.55583210E+01
+&
+@target G0.S31
+@type xy
+  0.10000000E+01 -0.54175520E+01
+&
+@target G0.S32
+@type xy
+  0.10000000E+01 -0.51696880E+01
+&
+@target G0.S33
+@type xy
+  0.10000000E+01 -0.50558450E+01
+&
+@target G0.S34
+@type xy
+  0.10000000E+01 -0.49406860E+01
+&
+@target G0.S35
+@type xy
+  0.10000000E+01 -0.48846140E+01
+&
+@target G0.S36
+@type xy
+  0.10000000E+01 -0.48228840E+01
+&
+@target G0.S37
+@type xy
+  0.10000000E+01 -0.47247920E+01
+&
+@target G0.S38
+@type xy
+  0.10000000E+01 -0.46568260E+01
+&
+@target G0.S39
+@type xy
+  0.10000000E+01 -0.46109650E+01
+&
+@target G0.S40
+@type xy
+  0.10000000E+01 -0.44875790E+01
+&
+@target G0.S41
+@type xy
+  0.10000000E+01 -0.42805850E+01
+&
+@target G0.S42
+@type xy
+  0.10000000E+01 -0.42354420E+01
+&
+@target G0.S43
+@type xy
+  0.10000000E+01 -0.41013720E+01
+&
+@target G0.S44
+@type xy
+  0.10000000E+01 -0.40219990E+01
+&
+@target G0.S45
+@type xy
+  0.10000000E+01 -0.39494020E+01
+&
+@target G0.S46
+@type xy
+  0.10000000E+01 -0.35742520E+01
+&
+@target G0.S47
+@type xy
+  0.10000000E+01 -0.34646480E+01
+&
+@target G0.S48
+@type xy
+  0.10000000E+01 -0.33003650E+01
+&
+@target G0.S49
+@type xy
+  0.10000000E+01 -0.32395750E+01
+&
+@target G0.S50
+@type xy
+  0.10000000E+01 -0.31779390E+01
+&
+@target G0.S51
+@type xy
+  0.10000000E+01 -0.20869540E+01
+&
+@target G0.S52
+@type xy
+  0.10000000E+01 -0.19636720E+01
+&
+@target G0.S53
+@type xy
+  0.10000000E+01 -0.16810570E+01
+&
+@target G0.S54
+@type xy
+  0.10000000E+01 -0.15111400E+01
+&
+@target G0.S55
+@type xy
+  0.10000000E+01 -0.13326970E+01
+&
+@target G0.S56
+@type xy
+  0.10000000E+01 -0.12020110E+01
+&
+@target G0.S57
+@type xy
+  0.10000000E+01 -0.99208700E+00
+&
+@target G0.S58
+@type xy
+  0.10000000E+01 -0.61690500E+00
+&
+@target G0.S59
+@type xy
+  0.10000000E+01 -0.11594500E+00
+&
+@target G0.S60
+@type xy
+  0.10000000E+01  0.00000000E+00
+&
+@target G0.S61
+@type xy
+  0.10000000E+01  0.25995400E+01
+&
+@target G0.S62
+@type xy
+  0.10000000E+01  0.29453910E+01
+&
+@target G0.S63
+@type xy
+  0.10000000E+01  0.35840430E+01
+&
+@target G0.S64
+@type xy
+  0.10000000E+01  0.38694300E+01
+&
+@target G0.S65
+@type xy
+  0.10000000E+01  0.40477120E+01
+&
+@target G0.S66
+@type xy
+  0.10000000E+01  0.43823660E+01
+&
+@target G0.S67
+@type xy
+  0.10000000E+01  0.43946970E+01
+&
+@target G0.S68
+@type xy
+  0.10000000E+01  0.45211410E+01
+&
+@target G0.S69
+@type xy
+  0.10000000E+01  0.46159710E+01
+&
+@target G0.S70
+@type xy
+  0.10000000E+01  0.46853180E+01
+&
+@target G0.S71
+@type xy
+  0.10000000E+01  0.47862600E+01
+&
+@target G0.S72
+@type xy
+  0.10000000E+01  0.48806810E+01
+&
+@target G0.S73
+@type xy
+  0.10000000E+01  0.48887210E+01
+&
+@target G0.S74
+@type xy
+  0.10000000E+01  0.49471330E+01
+&
+@target G0.S75
+@type xy
+  0.10000000E+01  0.50780280E+01
+&
+@target G0.S76
+@type xy
+  0.10000000E+01  0.51263630E+01
+&
+@target G0.S77
+@type xy
+  0.10000000E+01  0.52299660E+01
+&
+@target G0.S78
+@type xy
+  0.10000000E+01  0.52360340E+01
+&
+@target G0.S79
+@type xy
+  0.10000000E+01  0.52540100E+01
+&
